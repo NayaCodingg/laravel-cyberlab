@@ -1,0 +1,414 @@
+/* Awal Navbar */
+.navbar-brand {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .nav-link {
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+  }
+  .container-fluid {
+    margin-top: -400px;
+    margin-left: 85px;
+  }
+  .helt {
+    font-size: 50px;
+  }
+  /* Akhir Navbar */
+  
+  /* Gambar Nav*/
+  .one {
+    margin-left: 20px;
+    width: 700px;
+    height: 700px;
+    margin-top: -150px;
+    margin-bottom: -20px;
+  }
+  /* End Gambar Nav*/
+  
+  #horizontal-line {
+    width: 3px;
+    height: 6px;
+  }
+
+  #hr{
+    background-color: black;
+  }
+
+
+  /*Jumbotron */
+  .fan {
+    position: absolute;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 100px;
+    padding-top: 100px;
+  }
+  
+  .tas {
+    font-size: 300%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: bold;
+  }
+  .pra {
+    width: 540px;
+  }
+
+  .btn {
+    color: white;
+    font-size: 100%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: bold;
+    width: 250px;
+  }
+  /* End Jumbotron */
+  
+  /* Awal Tentang Kami */
+  .col {
+    padding-top: 5rem;
+  }
+  .container {
+    padding-bottom: 5rem;
+  }
+  .ten {
+    padding-top: 20px;
+  }
+  .sert {
+    text-align: center;
+    padding-left: 8px;
+    padding-top: 28px;
+    font-size: 14px;
+  }
+  /* Akhir Tentang Kami */
+  
+  /* Awal Card Web */
+  .row-cols {
+    background-image: url(../img/ASET/Group\ 70@2x.png);
+    background-size: cover;
+    padding-top: 15rem;
+    padding-bottom: 25rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .col-card .card-img-top{
+    height: 200px;
+    width: 200px;
+    margin-left: -13px;
+    margin-top: -70px;  
+  }
+  .col-card .card {
+    padding: 100px;  
+    width: 250px;
+    height: 270px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px;   
+    font-size: 14px;
+    padding-top: 100px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 50px;
+  }
+  .col-card {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+  }
+  .this {
+    position: absolute;
+    left: 40px;
+    top: -30px;
+    bottom: 500px;
+    width: 10rem;
+  }
+  .card-text{
+    font-size:small;
+  }
+  /* Akhir Card Web */
+  
+  /* Awal Berita */
+  .berita {
+    padding-top: 5rem;
+    background-color: gray;
+    height: fit-content;
+    padding-bottom: 5%;
+  }
+  .judul {
+    text-align: center;
+  }
+  .row-berita {
+    padding-top: 2rem;
+    width: 90%;
+    margin-left: 5%;
+    object-fit: cover;
+  }
+  .card-1 {
+    height: 67%;
+    border-radius: 40px;
+    object-fit: cover;
+
+  }
+  .ber {
+    object-fit: cover;
+    height: 40%;
+    margin-bottom: 1rem;
+  }
+  .card-2 {
+    height: 45%;
+    margin-right: 1rem;
+    border-radius: 30px;
+  }
+  .mage .card-img-top {
+    object-fit: cover;
+    width: 20px;
+    height: 40%;
+    margin-bottom: 2rem;
+  }
+  .card-title {
+    margin-left: 1rem;
+    width: 90%;
+  }
+  .card-text {
+    margin-left: 1rem;
+    width: 90%;
+  }
+  .half2 {
+    margin-left: -1rem;
+  }
+  /* Akhir Berita */
+  
+  /* Awal Galeri */
+  .gallery {
+    margin: 3rem;
+    padding-top: 3rem;
+    text-align: center;
+  }
+  .gambar-gal1 img {
+    margin-top: 2rem;
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .gambar-gal2 img {
+    margin-top: 4px;
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .btn {
+    margin-top: 2rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 15px;
+  }
+  /* Akhir Galeri */
+  
+  /* Awal Footer */
+  .footer {
+    margin-top: 7rem;
+  }
+  .copy-home {
+    padding: 6rem;
+    display: flex;
+    justify-content: start;
+  }
+  .copy-home .tasty {
+    margin-right: 2rem;
+  }
+  .pra-end {
+    margin-top: 1rem;
+    width: 80%;
+  }
+  .pra-end img {
+    width: 3rem;
+    margin-right: 1rem;
+  }
+  .logo img {
+    width: 3rem;
+    margin-top: 2rem;
+    margin-right: 0.5rem;
+  }
+  .two {
+    display: flex;
+    justify-content: space-between;
+  }
+  .copyright {
+    padding-bottom: 2rem;
+  }
+  /* Akhir Footer */
+  
+  /* Nav Tentang */
+  .navbar-about {
+    background-image: url(../img/ASET/Group\ 70@2x.png);
+    background-size: cover;
+    padding-top: 600px;
+  }
+  .collap {
+    padding-top: 40px;
+  }
+  .collapse-about {
+    margin-bottom: 10px;
+    margin-left: 40rem;
+  }
+  .pad {
+    margin-top: 120px;
+    padding-right: 55rem;
+    margin-left: 85px;
+    font-weight: bold;
+  }
+  .group-tentang1 {
+    padding-top: 20rem;
+    padding-bottom: 15rem;
+  }
+  .gambar-ten1 img {
+    margin-top: -10rem;
+    margin: -830px;
+    margin-left: 52rem;
+    width: 15rem;
+    height: 25rem;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .group-pra1 {
+    margin-top: -200px;
+    margin-left: 100px;
+    font-size: 90%;
+    width: 700px;
+  }
+  .win {
+    padding-top: 80px;
+    font-weight: bold;
+  }
+  .teks1 {
+    font-weight: bold;
+  }
+  .teks2 {
+    margin-top: 50px;
+  }
+  .group-tentang2 {
+    margin-top: 10rem;
+  }
+  .group-pra2 {
+    margin-left: 46rem;
+    font-size: 80%;
+    width: 30rem;
+  }
+  .gambar-ten2 img {
+    margin-left: 100px;
+    margin-top: -15rem;
+    padding: -10px;
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .group-tentang3 {
+    padding-top: 6rem;
+  }
+  .gambar-ten3 img {
+    margin-left: 48rem;
+    margin-top: 2rem;
+    width: 35rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .group-pra3 {
+    margin-top: -200px;
+    margin-left: 100px;
+    font-size: 80%;
+    width: 40rem;
+  }
+  /* End Nav tentang */
+  
+  /* Berita */
+  .group-teks1 {
+    padding-top: 7rem;
+    margin-left: 40rem;
+    width: 30rem;
+    font-size: 80%;
+  }
+  .gambar-berita1 img {
+    margin-bottom: 5rem;
+    margin-top: -25rem;
+    margin-left: 10rem;
+    width: 27rem;
+    height: 27rem;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .col-kolom {
+    width: 20rem;
+    height: 5rem;
+    padding-left: 5rem;
+    padding: -15px;
+  }
+  .group-kartu {
+    padding-top: 5rem;
+  }
+  .pin {
+    margin-left: 10rem;
+    font-weight: bold;
+  }
+  .kartu {
+    object-fit: cover;
+  }
+  
+  .col-kolom {
+    width: 20rem;
+    height: 5rem;
+    padding-left: 5rem;
+    padding: -15px;
+  }
+  
+  .col-kolom2 {
+    width: 20rem;
+    height: 5rem;
+    padding-top: 30rem;
+    padding-bottom: 30rem;
+    padding-left: 5rem;
+    padding: -15px;
+  }
+  /* End Berita */
+  /* Galery */
+  .group-galery1 {
+    padding-top: 7rem;
+    width: 85rem;
+  }
+  .gambar-galery1 img {
+    margin-bottom: 7rem;
+    padding-top: -25rem;
+    margin-left: 8rem;
+    width: 70rem;
+    height: 27rem;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .group-lengkap {
+    margin: 80px;
+  }
+  .gambar-lengkap1 img {
+    margin-left: 50px;
+    margin-top: 2rem;
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  /* End Galery */
+  
+  /* Kontak */
+  .air {
+    margin-left: 10rem;
+    font-weight: bold;
+  }
+  
+  .container-kontak {
+    margin: 20rem;
+  }
+  /* End Kontak */
